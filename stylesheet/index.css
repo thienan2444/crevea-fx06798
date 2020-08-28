@@ -1,6 +1,4 @@
-.col-sm-3{
-    padding:0;
-}
+
 .fa-horizontal-rule{
     margin-right:15px;
 }
@@ -50,22 +48,15 @@
     }
 }
 /******NAV BAR**********/
-#navbar-menu{
+#navbar-menu, #search-icon{
     float:left;
     margin:0;
-}
-.navbar-nav a .active{
-    color:orange;
 }
 .fa-search{
     color: black;
 }
-.navbar-brand{
-    display: block;
-}
 .navbar-brand:hover{
-    color:blue;
-    background-color:white;
+    color:white;
 }
 .navbar{
     padding: 5px 0px;
@@ -74,13 +65,10 @@
     .navbar{
         background-color:#3467eb;
     }
-    .navbar-brand{
-        margin-left:25%;
-    }
     .navbar a{
         color: white;
     }
-    .navbar .orange-text{
+    .navbar .active{
         color: orange;
     } 
     #page-name{
@@ -91,20 +79,17 @@
     .navbar{
         background-color:#3467eb;
     }
-    .navbar-brand{
-        margin-left:0px;
-    }
     .navbar a{
         color: white;
     }
-    .navbar .orange-text{
+    .navbar .active{
         color: orange;
     }
     #page-name{
         font-size:26px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .navbar{
         background-color:white;
     }
@@ -115,9 +100,6 @@
     }
     #search{
         display: none;
-    }
-    .navbar-brand{
-        margin-left:25%;
     }
 }
 /************ About us**********/
@@ -212,7 +194,8 @@
 }
 @media screen and (max-width:768px){
     .our-business #communication img{
-        height:700px;
+        height:900px;
+        position: relative;
     }
 
     .our-business #communication #book-icon{
@@ -233,7 +216,7 @@
         position: absolute;
         width:80%;
         height: 200px;
-        margin-top:-90%;
+        margin-top:-114%;
         margin-left:10%;
     }
     .our-business .title-content{
@@ -267,9 +250,6 @@
     .align-center{
         margin-left:25%;
     }
-}
-@media screen and (max-width:992px){
-   
 }
 /***********CONTACT*********/
 .contact{
